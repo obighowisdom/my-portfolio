@@ -5,8 +5,12 @@ import { IoMdDownload } from "react-icons/io";
 
 const DownloadCV = () => {
   return (
-    <a href="#about">
+    <a
+      target="_blank"
+      href="https://app.enhancv.com/share/2d00aab0/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic"
+    >
       <MagicButton
+        oncl
         title="Download CV"
         icon={<IoMdDownload />}
         position="right"
